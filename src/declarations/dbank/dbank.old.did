@@ -1,0 +1,6 @@
+service : {
+  compoundInterest: () -> () oneway;
+  readValue: () -> (float64) query;
+  topUp: (float64) -> () oneway;
+  withDraw: (float64) -> () oneway;
+}
